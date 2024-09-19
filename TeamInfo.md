@@ -25,4 +25,5 @@
 
 ## Project Summary
 
-This is a summary of the project!
+GlobalScholar is an innovative web application designed to assist students in planning their finances for studying abroad. By integrating comprehensive datasets on global cost of living, university tuition fees, and student expenses, the platform provides personalized financial estimates and budgeting tools. GlobalScholar aims to empower students with the knowledge and resources needed to make informed decisions about their education, offering a holistic view of the financial requirements for studying in different countries and universities. The application not only estimates costs but also matches students with suitable universities based on their financial profiles, and provides interactive visualizations to help users understand their financial situations. By combining real-world data with user-specific inputs, GlobalScholar enhances the study abroad experience by reducing financial uncertainty and enabling better planning.
+
