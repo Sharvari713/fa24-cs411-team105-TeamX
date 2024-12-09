@@ -1,0 +1,50 @@
+/* Adjust the login form container */
+.login {
+    width: 50vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Heading styling */
+  .login h2 {
+    text-align: left; /* Align heading to the left */
+    margin-bottom: 20px;
+  }
+  
+  /* Form field container */
+  .login div {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  /* Input and label styling */
+  .login label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login input {
+    width: 50%; /* Match input widths for consistency */
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styling */
+  .login button {
+    width: 20%; /* Adjust button width */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .login button:hover {
+    background-color: #0056b3;
+  }

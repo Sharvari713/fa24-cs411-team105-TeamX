@@ -1,0 +1,168 @@
+/* Main container for the Dashboard */
+.dashboard {
+  padding: 20px;
+  background-color: #f4f7fa;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.dashboard h2 {
+  text-align: center;
+  color: #2d3a44;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Error message styling */
+.dashboard p[style] {
+  color: #f44336;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Header row styling */
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+/* Table row styling */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Edit and Delete Icon Buttons */
+button {
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Icons */
+.edit-icon,
+.delete-icon {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.delete-icon {
+  color: #dc3545;
+}
+
+/* Style for buttons when editing */
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}
+
+.delete-icon:hover {
+  color: #c82333;
+}
+
+/* Select dropdown style for editing */
+.react-select__control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.react-select__control--is-focused {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Save and Cancel buttons */
+button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 15px;
+  }
+
+  .dashboard h2 {
+    font-size: 1.8rem;
+  }
+
+  .dashboard p {
+    font-size: 1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .edit-icon,
+  .delete-icon {
+    font-size: 16px;
+  }
+}

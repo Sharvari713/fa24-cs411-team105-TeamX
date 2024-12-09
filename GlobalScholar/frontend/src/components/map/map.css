@@ -1,0 +1,81 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .map-wrapper {
+    width: 80%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cost-of-living-sidebar {
+    left: 20px;
+  }
+  
+  .universities-sidebar {
+    right: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cost-of-living, .universities {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  li strong {
+    font-weight: bold;
+  }
+  
+  .geography {
+    cursor: pointer;
+  }
+  
+  .geography:hover {
+    fill: #2c3e50 !important;
+  }
+  
+  .geography:active {
+    fill: #1b2a41 !important;
+  }
+
+  .geography.default {
+    fill: #ADD8E6; 
+  }
+  

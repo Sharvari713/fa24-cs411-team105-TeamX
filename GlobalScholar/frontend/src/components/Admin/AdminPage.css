@@ -1,0 +1,64 @@
+.admin-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .data-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .data-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: left;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  .search-bar {
+    width: 50%; /* Adjust this value to make the search bar shorter */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto; /* Centers the search bar horizontally */
+    margin-right: auto; /* Centers the search bar horizontally */
+  }
+  
+  .confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  

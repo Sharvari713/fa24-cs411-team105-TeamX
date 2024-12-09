@@ -1,0 +1,79 @@
+/* Container for the header */
+header {
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+  }
+  
+  /* Container inside the header for layout */
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Site name */
+  header .fs-3 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Buttons container */
+  header .btn-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* General button styling */
+  header button {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 1px solid #ddd; /* Border to match table's border color */
+    color: #333; /* Text color to match the table text */
+    background-color: #fff; /* Background color for buttons */
+  }
+  
+  /* Styling for the 'Login' and 'Register' buttons */
+  header .btn-outline {
+    border-color: #6c757d; /* Subtle grey */
+    color: #6c757d;
+  }
+  
+  header .btn-outline:hover {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Styling for the 'Register' button */
+  header .btn {
+    background-color: #f1f1f1; /* Light grey background for neutral look */
+    border-color: #ddd;
+    color: #333;
+  }
+  
+  header .btn:hover {
+    background-color: #e2e2e2;
+    border-color: #ccc;
+  }
+  
+  /* Styling for the 'Logout' button */
+  header .btn-danger {
+    background-color: #f44336; /* Red for logout */
+    border-color: #f44336;
+    color: white;
+  }
+  
+  header .btn-danger:hover {
+    background-color: #e53935;
+    border-color: #e53935;
+  }
+  
+  /* Spacing between buttons */
+  header button + button {
+    margin-left: 1rem;
+  }
+  

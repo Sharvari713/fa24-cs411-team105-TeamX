@@ -1,0 +1,70 @@
+/* Adjust the register form container */
+.register {
+    width: 50vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Heading styling */
+  .register h2 {
+    text-align: left; /* Align heading to the left */
+    margin-bottom: 20px;
+  }
+  
+  /* Form field container */
+  .register div {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  /* Input and label styling */
+  .register label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .register input {
+    width: 50%; /* Match input widths for consistency */
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* React-Select Dropdown Styling */
+  .react-select-container {
+    width: 0%; /* Match width to other inputs */
+    text-align: left;
+    box-sizing: border-box;
+  }
+  
+  .react-select__control {
+    width: 100%; /* Full width of the container */
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px; /* Match input height */
+  }
+  
+  .react-select__menu {
+    width: 100%; 
+  }
+  
+  /* Button Styling */
+  .register button {
+    width: 20%; /* Adjust button width */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register button:hover {
+    background-color: #0056b3;
+  }
+  
